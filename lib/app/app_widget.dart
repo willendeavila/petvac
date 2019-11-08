@@ -1,12 +1,17 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:petvac/app/menu/routes.dart';
 import 'package:petvac/app/pages/home/home_module.dart';
+import 'package:petvac/app/pages/home/home_page.dart';
 import 'pages/login/signin_page.dart';
 
 class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      routes: {
+        Rotas.home: (context) => HomePage(),
+      },
       title: 'Flutter Slidy',
       theme: ThemeData(
         primarySwatch: Colors.blue,

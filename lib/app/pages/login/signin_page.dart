@@ -18,6 +18,7 @@ class _SignInPageState extends State<SignInPage> {
     return Scaffold(
         appBar: AppBar(title: Text('Tela Login')),
         body: Form(
+          key: _formKey,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
