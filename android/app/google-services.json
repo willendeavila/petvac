@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "115605371289",
+    "firebase_url": "https://petvac-49ce8.firebaseio.com",
+    "project_id": "petvac-49ce8",
+    "storage_bucket": "petvac-49ce8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115605371289:android:01bfa0196d045cf99b7b08",
+        "android_client_info": {
+          "package_name": "biz.gob.petvac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115605371289-34olgs2uqdl02oojig49p05k2niev5oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUg2Xt6MCpuIR19E890iRyB0W6YmtC_DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115605371289-34olgs2uqdl02oojig49p05k2niev5oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
