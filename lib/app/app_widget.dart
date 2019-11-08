@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:petvac/app/menu/routes.dart';
 import 'package:petvac/app/pages/home/home_module.dart';
 import 'package:petvac/app/pages/home/home_page.dart';
+import 'package:petvac/app/pages/vacinas/vacinas_page.dart';
 import 'pages/login/signin_page.dart';
 
 class AppWidget extends StatelessWidget {
@@ -11,6 +12,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       routes: {
         Rotas.home: (context) => HomePage(),
+        Rotas.vacinas: (context) => VacinasPage(),
       },
       title: 'Flutter Slidy',
       theme: ThemeData(
