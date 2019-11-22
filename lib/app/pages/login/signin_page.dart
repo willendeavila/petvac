@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class SignInPage extends StatefulWidget {
+  static const String rota = '/signin';
   State<StatefulWidget> createState() => _SignInPageState();
 }
 

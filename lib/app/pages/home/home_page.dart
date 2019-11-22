@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:petvac/app/menu/drawer.dart';
+import 'package:petvac/app/menu/routes.dart';
 
 class HomePage extends StatefulWidget {
   final String title;
@@ -38,6 +39,7 @@ class _HomePageState extends State<HomePage> {
                     return;
                   }
                   _signOut();
+                  Navigator.pushReplacementNamed(context, Rotas.signin);
                 }
               );
             },

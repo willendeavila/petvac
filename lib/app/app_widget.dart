@@ -13,6 +13,7 @@ class AppWidget extends StatelessWidget {
       routes: {
         Rotas.home: (context) => HomePage(),
         Rotas.vacinas: (context) => VacinasPage(),
+        Rotas.signin:(context) => SignInPage(),
       },
       title: 'Flutter Slidy',
       theme: ThemeData(
