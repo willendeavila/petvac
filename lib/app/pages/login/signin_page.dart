@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:petvac/app/menu/routes.dart';
 
 class SignInPage extends StatefulWidget {
   static const String rota = '/signin';
@@ -13,6 +16,7 @@ class _SignInPageState extends State<SignInPage> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   bool _success;
   String _userEmail;
+  String _userID;
 
   @override
   Widget build(BuildContext context) {
@@ -70,6 +74,13 @@ class _SignInPageState extends State<SignInPage> {
                       },
                       child: const Text('Cadastrar'),
                     ),
+                    RaisedButton(
+                      onPressed: () async {
+                        _signInAnonymously(context);
+                        Navigator.pushReplacementNamed(context, Rotas.home);
+                      },
+                      child: const Text('Anônimo'),
+                    ),
                   ],
                 ),
               )
@@ -90,6 +101,13 @@ class _SignInPageState extends State<SignInPage> {
     } catch (error) {
       _showDialog(context, error);
     }
+  }
+
+  void _signInAnonymously(BuildContext context) async {
+    final FirebaseUser user = (await _auth.signInAnonymously()).user;
+    
+    _success = true;
+    _userID = user.uid;
   }
 
   Future<void> _registerEmailAndPassword(BuildContext context) async {
