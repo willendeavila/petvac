@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "115605371289",
-    "firebase_url": "https://petvac-49ce8.firebaseio.com",
-    "project_id": "petvac-49ce8",
-    "storage_bucket": "petvac-49ce8.appspot.com"
+    "project_number": "839900498401",
+    "firebase_url": "https://petvac201.firebaseio.com",
+    "project_id": "petvac201",
+    "storage_bucket": "petvac201.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:115605371289:android:01bfa0196d045cf99b7b08",
+        "mobilesdk_app_id": "1:839900498401:android:b27c1554de248b1d27aaa0",
         "android_client_info": {
-          "package_name": "biz.gob.petvac"
+          "package_name": "urt.edu.br"
         }
       },
       "oauth_client": [
         {
-          "client_id": "115605371289-34olgs2uqdl02oojig49p05k2niev5oa.apps.googleusercontent.com",
+          "client_id": "839900498401-u311ef614cor3kgk5f5hauf3ehneeog1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBUg2Xt6MCpuIR19E890iRyB0W6YmtC_DE"
+          "current_key": "AIzaSyDlwffR0-GF5EqKt2Sr0EMfJlStTbq-iTI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "115605371289-34olgs2uqdl02oojig49p05k2niev5oa.apps.googleusercontent.com",
+              "client_id": "839900498401-u311ef614cor3kgk5f5hauf3ehneeog1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
