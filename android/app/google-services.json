@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "839900498401",
+    "firebase_url": "https://petvac201.firebaseio.com",
+    "project_id": "petvac201",
+    "storage_bucket": "petvac201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839900498401:android:b27c1554de248b1d27aaa0",
+        "android_client_info": {
+          "package_name": "urt.edu.br"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839900498401-u311ef614cor3kgk5f5hauf3ehneeog1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlwffR0-GF5EqKt2Sr0EMfJlStTbq-iTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839900498401-u311ef614cor3kgk5f5hauf3ehneeog1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
