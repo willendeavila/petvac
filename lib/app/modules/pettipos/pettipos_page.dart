@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:petvac/app/utils/main_drawer.dart';
-import 'package:petvac/app/utils/routes.dart';
 
-class HomePage extends StatefulWidget {
+class PetTiposPage extends StatefulWidget {
   final String title;
-  static const String route = '/home';
+  static const String route = '/petTipos';
 
-  const HomePage({Key key, this.title = "Home"}) : super(key: key);
+  const PetTiposPage({Key key, this.title = "Pettipos"}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _PetTiposPageState createState() => _PetTiposPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _PetTiposPageState extends State<PetTiposPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
